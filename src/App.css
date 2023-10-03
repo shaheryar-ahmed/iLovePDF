@@ -1,0 +1,45 @@
+body{
+    background: #f3f0ec;
+}
+
+/* Navbar */
+.logo-responsive{
+    width: 120px;
+}
+
+/* Hero Section */
+.hero-section{
+    background: linear-gradient(90deg,#882e27,#6d869a 50%,#231641) #44287d;
+}
+.subtitle{
+    max-width: 980px;
+}
+
+/* Services Section */
+.services-section{
+    padding: 0 68px 42px;
+}
+.services-container{
+    margin-top: -80px;
+}
+.para-size{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #626870;   
+}
+.background-opacity-services{
+    border-bottom: 1px solid #f6f6f8;
+    border-right: 1px solid #f6f6f8;
+    border-left: 0px solid #f6f6f8;
+    border-top: 0px solid #f6f6f8;
+    transition: all 0.4s ease-out;
+}
+.background-opacity-services:hover{
+    background-color: #f6f6f8;
+}
+.services-card svg{
+    transition: none;
+}
+.services-card:hover svg{
+    transform: scale(1.1);
+}

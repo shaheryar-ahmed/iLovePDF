@@ -1,10 +1,13 @@
 import React from 'react'
-import HeroSection from './Components/HeroSection'
+import NavbarSection from './Components/NavbarSection'
+import HomePage from './Components/HomePage'
+import './App.css'
 
 const App = () => {
   return (
     <div>
-      <HeroSection />
+      <NavbarSection />
+      <HomePage />
     </div>
   )
 }
