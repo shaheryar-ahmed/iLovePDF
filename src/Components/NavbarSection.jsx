@@ -12,7 +12,7 @@ const NavbarSection = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse " id="navbarNavDropdown">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav ">
               <li className="nav-item">
                 <a className="nav-link" href="#">MERGE PDF</a>
               </li>
