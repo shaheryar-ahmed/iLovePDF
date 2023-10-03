@@ -486,9 +486,34 @@ const HomePage = () => {
       </section>
 
       {/* Third Section */}
-      <section className='third-section bg-white'>
-        <div className="third-section-heading">
-          <h1>Looking for another solution?</h1>
+      <section className='third-section bg-white pt-5 pb-5'>
+        <div className="third-section-heading pt-5">
+          <h1 className='fw-bolder text-center'>Looking for another solution?</h1>
+        </div>
+        <div className='device-parts pt-5 pb-5'>
+          <div className="container align-items-center pb-5">
+            <div className="row justify-content-center">
+              <div className="col-lg-4">
+                <h2>iLovePDF Desktop</h2>
+                <p className='' style={{ color: "#96979c" }}>
+                  Download the <span><a className='text-danger fw-medium ' href="https://www.ilovepdf.com/desktop">iLovePDF Desktop</a></span> App to work with your favorite PDF tools on your Mac or Windows PC. Get a lightweight PDF app that helps you process heavy PDF tasks offline in seconds.
+                </p>
+              </div>
+              <div className="col-lg-4">
+                <h2>iLovePDF Desktop</h2>
+                <p className='' style={{ color: "#96979c" }}>
+                  Download the <span><a className='text-danger fw-medium ' href="https://www.ilovepdf.com/desktop">iLovePDF Desktop</a></span> App to work with your favorite PDF tools on your Mac or Windows PC. Get a lightweight PDF app that helps you process heavy PDF tasks offline in seconds.
+                </p>
+              </div>
+              <div className="col-lg-4">
+                <h2>iLovePDF Desktop</h2>
+                <p className='' style={{ color: "#96979c" }}>
+                  Download the <span><a className='text-danger fw-medium ' href="https://www.ilovepdf.com/desktop">iLovePDF Desktop</a></span> App to work with your favorite PDF tools on your Mac or Windows PC. Get a lightweight PDF app that helps you process heavy PDF tasks offline in seconds.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
