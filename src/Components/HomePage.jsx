@@ -519,14 +519,14 @@ const HomePage = () => {
 
       {/* Forth Section */}
       <section className='forth-section pt-5 pb-5' style={{ backgroundColor: "#f5f5fa" }}>
-        <div className="pt-5">
+        <div className="pt-5 pb-5">
           <h1 className='fw-bolder text-center'>The PDF software trusted by millions of users</h1>
           <div className="container">
             <h4 className='text-center fw-normal p-3' style={{ color: "#47474f" }}>iLovePDF is your number one web app for editing PDF with ease. Enjoy all the tools you need to work efficiently with your digital documents while keeping your data safe and secure.</h4>
-            <div className="sponsers p-5">
-              <img src="https://www.ilovepdf.com/img/logos/pdf-association-logo.svg" alt="" />
-              <img className='small ' src="https://www.ilovepdf.com/img/logos/iso-logo.svg" alt="" />
-              <img src="https://www.ilovepdf.com/img/logos/ssl-encrypted-logo.svg" alt="" />
+            <div className="sponsers text-center">
+              <img className='m-5' style={{width:"auto", height:"30px"}} src="https://www.ilovepdf.com/img/logos/pdf-association-logo.svg" alt="" />
+              <img className='m-5' style={{width:"auto", height:"30px"}} src="https://www.ilovepdf.com/img/logos/iso-logo.svg" alt="" />
+              <img className='m-5' style={{width:"auto", height:"30px"}} src="https://www.ilovepdf.com/img/logos/ssl-encrypted-logo.svg" alt="" />
             </div>
           </div>
         </div>
