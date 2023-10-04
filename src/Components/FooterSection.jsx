@@ -44,7 +44,7 @@ const FooterSection = () => {
               </ul>
             </div>
           </div>
-          <ul className='list-unstyled d-flex justify-content-end  '>
+          <ul className='list-unstyled d-flex justify-content-end'>
             <li>
               <a href="">
                 <img src="https://www.ilovepdf.com/img/logos/google_play.svg" alt="" />
@@ -61,10 +61,19 @@ const FooterSection = () => {
           </div>
           <div className="row">
             <div className="col-lg-4">
- 
+              <div className='d-flex align-items-center'>
+                  <i className="fa-solid fa-globe m-0" style={{ color: "#000",  fontSize: "18px" }}></i>
+                  <p className='px-2 m-0'>English</p>
+                  <i className="fa-solid fa-sort-down m-0" style={{ color: "#000", fontSize: "18px" }}></i>
+              </div>
             </div>
             <div className="col-lg-8">
-              
+              <div className="slogan">
+
+              </div>
+              <div className="social">
+
+              </div>
             </div>
           </div>
         </div>
