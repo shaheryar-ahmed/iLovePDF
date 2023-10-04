@@ -44,7 +44,7 @@ const FooterSection = () => {
               </ul>
             </div>
           </div>
-          <ul className='list-unstyled d-flex justify-content-end'>
+          <ul className='list-unstyled d-flex justify-content-end pt-3'>
             <li>
               <a href="">
                 <img src="https://www.ilovepdf.com/img/logos/google_play.svg" alt="" />
@@ -62,17 +62,23 @@ const FooterSection = () => {
           <div className="row">
             <div className="col-lg-4">
               <div className='d-flex align-items-center'>
-                  <i className="fa-solid fa-globe m-0" style={{ color: "#000",  fontSize: "18px" }}></i>
-                  <p className='px-2 m-0'>English</p>
-                  <i className="fa-solid fa-sort-down m-0" style={{ color: "#000", fontSize: "18px" }}></i>
+                <i className="fa-solid fa-globe m-0" style={{ color: "#000", fontSize: "18px" }}></i>
+                <p className='px-2 m-0'>English</p>
+                <i className="fa-solid fa-sort-down m-0" style={{ color: "#000", fontSize: "18px" }}></i>
               </div>
             </div>
             <div className="col-lg-8">
-              <div className="slogan">
-
-              </div>
-              <div className="social">
-
+              <div className="d-flex justify-content-end ">
+                <div className="pe-3">
+                  <p>© iLovePDF 2023 ® - Your PDF Editor</p>
+                </div>
+                <div className="">
+                  <a href=""><i className="fa-brands fa-twitter px-1" style={{ fontSize: "18px" }}></i></a>
+                  <a href=""><i className="fa-brands fa-facebook px-1" style={{ fontSize: "18px" }}></i></a>
+                  <a href=""><i className="fa-brands fa-linkedin-in px-1" style={{ fontSize: "18px" }}></i></a>
+                  <a href=""><i className="fa-brands fa-instagram px-1" style={{ fontSize: "18px" }}></i></a>
+                  <a href=""><i className="fa-brands fa-skype px-1" style={{ fontSize: "18px" }}></i></a>
+                </div>
               </div>
             </div>
           </div>
